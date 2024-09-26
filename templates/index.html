@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+        .logout {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .logout:hover {
+            text-decoration: underline;
+        }
+
+        .username-display {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="username-display"></div> <!-- Placeholder -->
+    <a href="/signin.html" class="logout">Logout</a>
+    <h1><img src="../static/images/notes.png ">Notes</h1>
+    <button class="btn"><img src="../static/images/edit.png"> Create Notes</button>
+    <div class="notes-container"></div>
+</div>
+<script src="../static/script.js"></script>
+</body>
+</html>
